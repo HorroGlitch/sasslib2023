@@ -1,0 +1,15 @@
+@import './variables.scss';
+@import './base.scss';
+
+.red{
+    width: 200px;
+    height: 200px;
+    border: $base-border-thickness solid $info;
+
+    &__black {
+        width: 20px;
+        height: 20px;
+        background-color: $error;
+        padding: $base-padding;
+    }
+}
